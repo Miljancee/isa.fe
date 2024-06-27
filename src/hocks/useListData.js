@@ -13,7 +13,7 @@ const useListData = (url) => {
 
         setData(result.data);
         setLoading(false);
-    }, [url])
+    }, [url]);
 
     return {getData, loading, data};
 }
